@@ -68,7 +68,7 @@ def save_file():
       return send_file("extracted_text.pdf",as_attachment=True, cache_timeout=0)
 
     elif option == "txt":
-      with open("extracted_text.txt", "w") as f:
+      with open("extracted_text.txt", "w", encoding='utf-8') as f:
         for text in texts:
           f.write(text.replace("\n", ""))
       return send_file("extracted_text.txt",as_attachment=True, cache_timeout=0)
