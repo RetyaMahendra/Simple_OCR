@@ -1,10 +1,13 @@
 #pip
 Flask
+#scikit-build
 tesseract
 tesseract-ocr
 opencv-python
 python-docx
 fpdf
+pytesseract
+
 
 #apt
 #libleptonica-dev tesseract-ocr tesseract-ocr-dev libtesseract-dev
