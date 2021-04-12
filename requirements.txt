@@ -1,4 +1,5 @@
 #pip
+Flask
 tesseract
 tesseract-ocr
 opencv-python
